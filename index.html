@@ -1,13 +1,13 @@
 <html>
   <head>
     <title>GTB</title>
-    <script src="https://raw.githubusercontent.com/liabru/matter-js/master/build/matter.min.js"></script>
+    <script src="/matter.min.js"></script>
   </head>
   <body>
     Hello World
     <div id="container"></div>
     <script>
-      var engine = Matter.Engine.create(document.getElementById("container"), {
+      var engine = Matter.Engine.create(container), {
                 render: {
                     options: {
                         wireframes: true, // ワイヤー表示
